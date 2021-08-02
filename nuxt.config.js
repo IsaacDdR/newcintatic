@@ -14,6 +14,10 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+  sitemap: {
+    hostname: 'https://isaacddr.github.io/newcintatic'
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['@/assets/main.css'],
 
