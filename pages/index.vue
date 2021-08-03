@@ -2,6 +2,7 @@
   <div>
     <Nav data-aos="fade-down" data-aos-duration="1000" />
     <div class="pt-20">
+      <font-awesome-icon :icon="['fas', 'phone']" class="ml-2 text-black" />
       <!--Hero -->
       <div
         class="bg-deep-purple-accent-700"

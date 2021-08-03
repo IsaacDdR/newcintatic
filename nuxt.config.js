@@ -14,6 +14,13 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
+
+  fontawesome: {
+    icons: {
+      solid: true,
+    },
+  },
+
   sitemap: {
     hostname: 'https://isaacddr.github.io/newcintatic'
   },
@@ -39,6 +46,8 @@ export default {
     '@nuxt/image',
 
     'nuxt-vite',
+
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
