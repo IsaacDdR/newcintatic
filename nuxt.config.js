@@ -22,7 +22,7 @@ export default {
   },
 
   sitemap: {
-    hostname: 'www.cintatic.com',
+    hostname: 'https://www.cintatic.com',
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -111,5 +111,4 @@ export default {
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
 }
