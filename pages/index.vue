@@ -15,12 +15,7 @@
           lg:px-8 lg:py-20
         "
       >
-        <div
-          class="max-w-xl sm:mx-auto lg:max-w-2xl"
-          data-aos="fade-in"
-          data-aos-delay="500"
-          data-aos-duration="1000"
-        >
+        <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
           <div class="flex flex-col mb-16 sm:text-center sm:mb-0">
             <div
               class="
@@ -125,12 +120,7 @@
         lg:px-8 lg:py-20
       "
     >
-      <div
-        class="flex flex-col lg:flex-row"
-        data-aos-duration="1000"
-        data-aos="fade-in"
-        data-aos-delay="500"
-      >
+      <div class="flex flex-col lg:flex-row">
         <div class="max-w-xl pr-16 mx-auto mb-10">
           <h5 class="mb-6 text-3xl font-extrabold leading-none">
             Paga poco, recibe mucho.
