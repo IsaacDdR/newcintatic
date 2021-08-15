@@ -22,7 +22,7 @@ export default {
   },
 
   sitemap: {
-    hostname: 'https://isaacddr.github.io/newcintatic',
+    hostname: 'www.cintatic.com',
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -95,10 +95,6 @@ export default {
     },
     lazy: true,
     langDir: 'lang/',
-  },
-
-  server: {
-    host: '0.0.0.0',
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
