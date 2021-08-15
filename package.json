@@ -1,5 +1,5 @@
 {
-  "name": "landing",
+  "name": "cintatic",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -28,7 +28,8 @@
     "nuxt": "^2.15.7",
     "nuxt-i18n": "^6.28.0",
     "nuxt-rfg-icon": "^0.6.4",
-    "nuxt-social-meta": "^1.0.0"
+    "nuxt-social-meta": "^1.0.0",
+    "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
@@ -43,7 +44,7 @@
     "@nuxtjs/stylelint-module": "^4.0.0",
     "@nuxtjs/tailwindcss": "^4.2.0",
     "@vue/test-utils": "^1.2.1",
-    "aos": "^2.3.4",
+    "aos": "^3.0.0-beta.6",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^27.0.5",
     "eslint": "^7.29.0",

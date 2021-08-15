@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'landing',
+    title: 'Cintatic',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,15 +14,15 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-
   fontawesome: {
     icons: {
       solid: true,
+      brands: true,
     },
   },
 
   sitemap: {
-    hostname: 'https://isaacddr.github.io/newcintatic'
+    hostname: 'https://isaacddr.github.io/newcintatic',
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -52,6 +52,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    'vue-scrollto/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
@@ -64,8 +65,6 @@ export default {
     'nuxt-helmet',
 
     '@nuxtjs/robots',
-
-    '@nuxtjs/redirect-module',
 
     'nuxt-rfg-icon',
 
