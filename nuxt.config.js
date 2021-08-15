@@ -110,5 +110,9 @@ export default {
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
+  router: {
+    base: 'https://www.cintatic.com',
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
 }
