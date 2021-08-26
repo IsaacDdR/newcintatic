@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Nav data-aos="fade-down" data-aos-duration="1000" />
     <!--Hero -->
 
     <div class="bg-gray-900">
@@ -884,8 +883,6 @@
         <font-awesome-icon class="text-5xl mx-3" :icon="['fab', 'instagram']" />
       </div>
     </div>
-
-    <Footer />
   </div>
 </template>
 

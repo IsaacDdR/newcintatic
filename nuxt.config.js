@@ -63,7 +63,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
 
-    'nuxt-i18n',
+    // 'nuxt-i18n',
 
     'nuxt-helmet',
 
@@ -102,6 +102,10 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  server: {
+    host: '0.0.0.0',
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {

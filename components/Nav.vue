@@ -121,10 +121,26 @@
         <a
           href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
         >
+          <font-awesome-icon
+            class="text-3xl mr-2"
+            :icon="['fab', 'facebook']"
+          />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
+        >
+          <font-awesome-icon
+            class="text-3xl mr-2"
+            :icon="['fab', 'instagram']"
+          />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
+        >
           <font-awesome-icon class="text-3xl" :icon="['fab', 'whatsapp']" />
         </a>
         <a href="tel:5628348062">
-          <font-awesome-icon class="text-2xl mx-5" :icon="['fas', 'phone']" />
+          <font-awesome-icon class="text-2xl mx-3" :icon="['fas', 'phone']" />
         </a>
       </div>
     </div>
