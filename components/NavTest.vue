@@ -15,7 +15,7 @@
       <ul class="flex items-center hidden space-x-8 lg:flex">
         <li>
           <NuxtLink
-            to="/"
+            to="/blog"
             aria-label="Blog"
             title="Blog"
             class="
@@ -24,7 +24,6 @@
               text-gray-700
               transition-colors
               duration-200
-              hover:text-deep-purple-accent-400
             "
             >Blog</NuxtLink
           >
@@ -55,7 +54,6 @@
               text-gray-700
               transition-colors
               duration-200
-              hover:text-deep-purple-accent-400
             "
             >Paquetes</NuxtLink
           >
@@ -94,8 +92,6 @@
             duration-200
             rounded
             focus:outline-none focus:shadow-outline
-            hover:bg-deep-purple-50
-            focus:bg-deep-purple-50
           "
           @click="isMenuOpen = !isMenuOpen"
         >
