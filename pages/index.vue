@@ -257,7 +257,6 @@
     <div
       data-aos-duration="1000"
       data-aos="fade-in"
-      data-aos-delay="500"
       class="
         px-4
         py-16
@@ -568,7 +567,6 @@
       id="features"
       data-aos-duration="1000"
       data-aos="fade-in"
-      data-aos-delay="500"
       class="
         px-4
         py-16
@@ -809,7 +807,6 @@
     <div
       data-aos-duration="1000"
       data-aos="fade-in"
-      data-aos-delay="500"
       class="
         px-4
         py-16

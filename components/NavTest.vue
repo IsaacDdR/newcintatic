@@ -14,10 +14,10 @@
     <div class="relative flex grid items-center grid-cols-2 lg:grid-cols-3">
       <ul class="flex items-center hidden space-x-8 lg:flex">
         <li>
-          <a
-            href="/"
-            aria-label="Our product"
-            title="Our product"
+          <NuxtLink
+            to="/"
+            aria-label="Blog"
+            title="Blog"
             class="
               font-medium
               tracking-wide
@@ -26,12 +26,12 @@
               duration-200
               hover:text-deep-purple-accent-400
             "
-            >Blog</a
+            >Blog</NuxtLink
           >
         </li>
         <li>
-          <a
-            href="/servicios"
+          <NuxtLink
+            to="/servicios"
             aria-label="Servicios"
             title="Servicios"
             class="
@@ -41,7 +41,7 @@
               transition-colors
               duration-200
             "
-            >Servicios</a
+            >Servicios</NuxtLink
           >
         </li>
         <li>
@@ -61,14 +61,14 @@
           >
         </li>
       </ul>
-      <a
-        href="/"
-        aria-label="Company"
-        title="Company"
+      <NuxtLink
+        to="/"
+        aria-label="Cintatic"
+        title="Cintatic"
         class="inline-flex items-center lg:mx-auto"
       >
         <nuxt-img class="w-36" src="/title-icon.png" />
-      </a>
+      </NuxtLink>
       <ul class="flex items-center hidden ml-auto space-x-8 lg:flex">
         <li>
           <a href="/">
@@ -118,14 +118,14 @@
           <div class="p-5 bg-white border rounded shadow-sm">
             <div class="flex items-center justify-between mb-4">
               <div>
-                <a
-                  href="/"
+                <NuxtLink
+                  to="/"
                   aria-label="Company"
                   title="Company"
                   class="inline-flex items-center"
                 >
                   <NuxtImg class="w-1/2" src="/title-icon.png" />
-                </a>
+                </NuxtLink>
               </div>
               <div>
                 <button

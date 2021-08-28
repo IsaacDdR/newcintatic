@@ -16,8 +16,20 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: true,
-      brands: true,
+      solid: [
+        'faQuestion',
+        'faPhone',
+        'faPiggyBank',
+        'faDraftingCompass',
+        'faMicrochip',
+        'faHeadset',
+        'faGlobe',
+        'faBolt',
+        'faPlay',
+        'faLock',
+        'faAngleDoubleRight',
+      ],
+      brands: ['faFacebook', 'faInstagram', 'faGoogle', 'faWhatsapp'],
     },
   },
 
@@ -80,6 +92,7 @@ export default {
     '@nuxtjs/sitemap',
   ],
 
+  /*
   i18n: {
     defaultLocale: 'es',
     locales: [
@@ -105,6 +118,7 @@ export default {
     lazy: true,
     langDir: 'lang/',
   },
+  */
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
@@ -116,7 +130,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en',
+      lang: 'es',
     },
   },
 
@@ -124,4 +138,7 @@ export default {
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {
+    extractCss: true,
+  },
 }
