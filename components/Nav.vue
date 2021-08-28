@@ -14,8 +14,8 @@
     <div class="relative flex grid items-center grid-cols-2 lg:grid-cols-3">
       <ul class="flex items-center hidden space-x-8 lg:flex">
         <li>
-          <a
-            href="/"
+          <NuxtLink
+            to="/blog"
             aria-label="Our product"
             title="Our product"
             class="
@@ -26,12 +26,12 @@
               duration-200
               hover:text-deep-purple-accent-400
             "
-            >Servicio</a
+            >Blog</NuxtLink
           >
         </li>
         <li>
-          <a
-            href="/"
+          <NuxtLink
+            to="/servicios"
             aria-label="Our product"
             title="Our product"
             class="
@@ -42,12 +42,12 @@
               duration-200
               hover:text-deep-purple-accent-400
             "
-            >Nosotros</a
+            >Nosotros</NuxtLink
           >
         </li>
         <li>
-          <a
-            href="/"
+          <NuxtLink
+            to="/paquetes"
             aria-label="Product pricing"
             title="Product pricing"
             class="
@@ -58,12 +58,12 @@
               duration-200
               hover:text-deep-purple-accent-400
             "
-            >Precios</a
+            >Precios</NuxtLink
           >
         </li>
       </ul>
-      <a
-        href="/"
+      <NuxtLink
+        to="/"
         aria-label="Cintatic"
         title="Cintatic"
         class="inline-flex items-center lg:mx-auto"
@@ -72,7 +72,7 @@
           class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase"
           ><nuxt-img class="w-36" src="/title-icon.png" />
         </span>
-      </a>
+      </NuxtLink>
       <ul class="flex items-center hidden ml-auto space-x-8 lg:flex">
         <li>
           <a
@@ -91,7 +91,7 @@
             title="Telefono"
           >
             <font-awesome-icon
-              class="text-gray-700 hover:text-gray-400 text-2xl"
+              class="text-gray-900 hover:text-gray-400 text-2xl"
               :icon="['fas', 'phone']"
             />
           </a>
@@ -111,8 +111,48 @@
             title="Whatsapp"
           >
             <font-awesome-icon
-              class="text-gray-700 hover:text-gray-400 text-3xl"
+              class="text-gray-900 hover:text-gray-400 text-3xl"
               :icon="['fab', 'whatsapp']"
+            />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
+            class="
+              inline-flex
+              items-center
+              justify-center
+              h-12
+              px-3
+              font-medium
+              tracking-wide
+              transition
+            "
+            aria-label="Sign up"
+            title="Instagram"
+          >
+            <font-awesome-icon
+              class="text-gray-900 hover:text-gray-400 text-3xl"
+              :icon="['fab', 'instagram']"
+            />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
+            class="
+              inline-flex
+              items-center
+              justify-center
+              h-12
+              px-3
+              font-medium
+              tracking-wide
+              transition
+            "
+            aria-label="Sign up"
+            title="Facebook"
+          >
+            <font-awesome-icon
+              class="text-gray-900 hover:text-gray-400 text-3xl"
+              :icon="['fab', 'facebook']"
             />
           </a>
         </li>

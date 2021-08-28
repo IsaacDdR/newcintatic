@@ -31,6 +31,12 @@ export default {
     { src: '~/plugins/vue-fb-customer-chat.js', ssr: false },
   ],
 
+  image: {
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/dl8qww4c7/image/upload/',
+    },
+  },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['@/plugins/aos.client'],
 

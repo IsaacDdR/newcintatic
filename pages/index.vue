@@ -33,11 +33,11 @@
                   mb-6
                   font-sans
                   text-5xl
+                  md:text-6xl
                   font-bold
                   leading-none
                   tracking-tight
                   text-white
-                  sm:text-4xl
                   md:mx-auto
                 "
               >
@@ -72,7 +72,7 @@
                     </defs>
                   </svg>
                 </span>
-                <p>Impúlsate con un sitio web</p>
+                <h1>Impúlsate con un sitio web</h1>
               </h2>
               <p class="text-base text-indigo-100 md:text-lg">
                 Mejora tu idea o negocio con un rápido y atractivo sitio web que
