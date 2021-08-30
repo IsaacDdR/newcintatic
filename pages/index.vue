@@ -876,8 +876,19 @@
           />
         </a>
 
-        <font-awesome-icon class="text-5xl mx-3" :icon="['fab', 'facebook']" />
-        <font-awesome-icon class="text-5xl mx-3" :icon="['fab', 'instagram']" />
+        <a href="fb://page/109952554724805">
+          <font-awesome-icon
+            class="text-5xl mx-3"
+            :icon="['fab', 'facebook']"
+          />
+        </a>
+
+        <a href="https://instagram.com/cintaticmx">
+          <font-awesome-icon
+            class="text-5xl mx-3"
+            :icon="['fab', 'instagram']"
+          />
+        </a>
       </div>
     </div>
   </div>
