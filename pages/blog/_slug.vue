@@ -1,5 +1,5 @@
 <template>
-  <div class="container md:w-1/2 md:mx-auto">
+  <div class="container md:w-3/4 md:mx-auto">
     <br />
     <NuxtLink
       class="mt-rounded-lg bg-gray-100 active:shadow ml-8 p-2"

@@ -2,7 +2,7 @@
   <article>
     <section class="text-gray-900 body-font">
       <div class="container px-5 mx-auto">
-        <h1 class="text-left py-12 text-6xl">Blog</h1>
+        <h1 class="text-left py-12 font-bold font-sans text-4xl">Blog</h1>
         <div class="flex flex-wrap -m-4">
           <NuxtLink
             v-for="post in page"

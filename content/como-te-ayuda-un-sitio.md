@@ -1,8 +1,8 @@
 ---
-title: Revisa que tu sitio web tenga esto
-description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
-image: v1630034331/sample.jpg
-slug: post1
+title: ¿Cómo te ayuda un sitio web?
+description: 'En pleno 2021 tener un negocio y no tener sitio web podría significar no tener negocio'
+image: v1630300237/internet-mondo-connesso.1020x680_joaoqn.webp
+slug: como-te-ayuda-un-sitio
 ---
 
 Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.

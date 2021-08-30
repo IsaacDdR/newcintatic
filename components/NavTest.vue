@@ -69,10 +69,12 @@
       </NuxtLink>
       <ul class="flex items-center hidden ml-auto space-x-8 lg:flex">
         <li>
-          <a href="/">
+          <a href="tel:5628348062">
             <font-awesome-icon class="text-2xl" :icon="['fas', 'phone']" />
           </a>
-          <a href="/">
+          <a
+            href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
+          >
             <font-awesome-icon
               class="mx-5 text-3xl"
               :icon="['fab', 'whatsapp']"
@@ -176,7 +178,6 @@
                       text-gray-700
                       transition-colors
                       duration-200
-                      hover:text-deep-purple-accent-400
                     "
                     >Servicios</NuxtLink
                   >
@@ -192,29 +193,34 @@
                       text-gray-700
                       transition-colors
                       duration-200
-                      hover:text-deep-purple-accent-400
                     "
                     >Paquetes</NuxtLink
                   >
                 </li>
               </ul>
               <span class="flex mt-5 justify-center">
-                <font-awesome-icon
-                  class="mx-5 text-3xl"
-                  :icon="['fab', 'facebook']"
-                />
+                <a href="fb://page/109952554724805">
+                  <font-awesome-icon
+                    class="mx-5 text-3xl"
+                    :icon="['fab', 'facebook']"
+                  />
+                </a>
                 <font-awesome-icon
                   class="mx-5 text-3xl"
                   :icon="['fab', 'instagram']"
                 />
-                <font-awesome-icon
-                  class="mx-5 text-3xl"
-                  :icon="['fab', 'whatsapp']"
-                />
-                <font-awesome-icon
-                  class="mx-5 text-3xl"
-                  :icon="['fas', 'phone']"
-                />
+                <a href="https://instagram.com/cintaticmx">
+                  <font-awesome-icon
+                    class="mx-5 text-3xl"
+                    :icon="['fab', 'whatsapp']"
+                  />
+                </a>
+                <a href="tel:5628348062">
+                  <font-awesome-icon
+                    class="mx-5 text-3xl"
+                    :icon="['fas', 'phone']"
+                  />
+                </a>
               </span>
             </nav>
           </div>

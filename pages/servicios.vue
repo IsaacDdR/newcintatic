@@ -11,6 +11,13 @@
       lg:px-8 lg:py-20
     "
   >
+    <div class="mx-auto md:w-1/2 space-y-4 font-sans mb-8 text-center">
+      <h2 class="text-4xl font-bold">Empacado con lo necesario</h2>
+      <p>
+        Nuestros sitios cuentan con todo lo indispensable para llevar tu negocio
+        al siguiente nivel
+      </p>
+    </div>
     <div class="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3">
       <div class="p-8 border-b sm:border-r">
         <div class="max-w-md text-center">
@@ -28,24 +35,12 @@
               sm:w-16 sm:h-16
             "
           >
-            <svg
-              class="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              ></polygon>
-            </svg>
+            <font-awesome-icon class="text-4xl" :icon="['fab', 'google']" />
           </div>
-          <h6 class="mb-2 font-semibold leading-5">The quick fox</h6>
+          <h6 class="mb-2 font-semibold leading-5">SEO</h6>
           <p class="mb-3 text-sm text-gray-900">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
+            Es importante que encuentren tu página a través de los motores de
+            búsqueda como Google, nosotros te posicionamos.
           </p>
         </div>
       </div>
@@ -65,24 +60,12 @@
               sm:w-16 sm:h-16
             "
           >
-            <svg
-              class="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              ></polygon>
-            </svg>
+            <font-awesome-icon class="text-4xl" :icon="['fab', 'facebook']" />
           </div>
-          <h6 class="mb-2 font-semibold leading-5">Leverage agile</h6>
+          <h6 class="mb-2 font-semibold leading-5">Redes sociales</h6>
           <p class="mb-3 text-sm text-gray-900">
-            Storage shed, troughs feed bale manure, is garden wheat oats at
-            augers. Bulls at rose garden cucumbers mice sunflower wheat in pig.
+            Agregamos los enlaces a tus redes sociales para que disfrutes de la
+            conexión con tus usuarios.
           </p>
         </div>
       </div>
@@ -102,25 +85,12 @@
               sm:w-16 sm:h-16
             "
           >
-            <svg
-              class="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              ></polygon>
-            </svg>
+            <font-awesome-icon class="text-4xl" :icon="['fas', 'lock']" />
           </div>
-          <h6 class="mb-2 font-semibold leading-5">Organically grow</h6>
-          <p class="mb-3 text-sm text-gray-900">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
-          </p>
+          <h6 class="mb-2 font-semibold leading-5">SSL ilimtado</h6>
+          Tenemos tu sitio asegurado con un certificado SSL gratis, para
+          siempre.
+          <p class="mb-3 text-sm text-gray-900"></p>
         </div>
       </div>
       <div class="p-8 border-b lg:border-b-0 lg:border-r">
@@ -139,24 +109,12 @@
               sm:w-16 sm:h-16
             "
           >
-            <svg
-              class="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              ></polygon>
-            </svg>
+            <font-awesome-icon class="text-4xl" :icon="['fas', 'play']" />
           </div>
-          <h6 class="mb-2 font-semibold leading-5">Have a good one</h6>
+          <h6 class="mb-2 font-semibold leading-5">Animaciones</h6>
           <p class="mb-3 text-sm text-gray-900">
-            Storage shed, troughs feed bale manure, is garden wheat oats at
-            augers. Bulls at rose garden cucumbers mice sunflower wheat in pig.
+            Agregamos un toque para que tu sitio se vea atractivo y moderno con
+            animaciones.
           </p>
         </div>
       </div>
@@ -176,24 +134,12 @@
               sm:w-16 sm:h-16
             "
           >
-            <svg
-              class="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              ></polygon>
-            </svg>
+            <font-awesome-icon class="text-4xl" :icon="['fas', 'bolt']" />
           </div>
-          <h6 class="mb-2 font-semibold leading-5">Trough pomfret</h6>
+          <h6 class="mb-2 font-semibold leading-5">Velocidad</h6>
           <p class="mb-3 text-sm text-gray-900">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
+            Con la tecnología y prácticas que usamos garantizamos cargas rápidas
+            de tu sitio.
           </p>
         </div>
       </div>
@@ -213,24 +159,12 @@
               sm:w-16 sm:h-16
             "
           >
-            <svg
-              class="w-8 h-8 text-deep-purple-accent-400 sm:w-12 sm:h-12"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                stroke-width="3"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              ></polygon>
-            </svg>
+            <font-awesome-icon class="text-4xl" :icon="['fas', 'globe']" />
           </div>
-          <h6 class="mb-2 font-semibold leading-5">Disrupt inspire</h6>
+          <h6 class="mb-2 font-semibold leading-5">Año de dominio</h6>
           <p class="mb-3 text-sm text-gray-900">
-            Storage shed, troughs feed bale manure, is garden wheat oats at
-            augers. Bulls at rose garden cucumbers mice sunflower wheat in pig.
+            Para que empieces de inmediato te ofrecemos un dominio provisional
+            gratis por un año
           </p>
         </div>
       </div>
