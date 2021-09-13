@@ -86,7 +86,7 @@
                 </p>
                 <div class="flex items-center justify-center">
                   <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
-                    $2980
+                    $2900
                   </p>
                 </div>
               </div>
