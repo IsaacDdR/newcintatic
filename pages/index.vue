@@ -359,7 +359,7 @@
           <div class="text-center">
             <div class="text-lg font-semibold">Inicia</div>
             <div class="flex items-center justify-center mt-2">
-              <div class="mr-1 text-5xl font-bold">$1900</div>
+              <div class="mr-1 text-5xl font-bold">$2980</div>
             </div>
             <div class="mt-2 space-y-3">
               <div class="text-gray-700">Una página</div>
@@ -449,7 +449,7 @@
           <div class="text-center">
             <div class="text-lg font-semibold">Pro</div>
             <div class="flex items-center justify-center mt-2">
-              <div class="mr-1 text-5xl font-bold">$2900</div>
+              <div class="mr-1 text-5xl font-bold">$3980</div>
             </div>
             <div class="mt-2 space-y-3">
               <div class="text-gray-700">4 páginas</div>
