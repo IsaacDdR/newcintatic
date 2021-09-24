@@ -80,29 +80,58 @@
               </p>
             </div>
             <div>
-              <a
-                href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
-                class="
-                  inline-flex
-                  items-center
-                  justify-center
-                  h-12
-                  px-6
-                  font-semibold
-                  tracking-wide
-                  text-gray-900
-                  transition
-                  duration-200
-                  rounded
-                  shadow-md
-                  hover:text-gray-100
-                  bg-gray-100
-                  hover:bg-gray-900
-                  focus:outline-none
-                "
-              >
-                Comencemos
-              </a>
+              <ul>
+                <a
+                  href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
+                  class="
+                    sm:sr-only
+                    not-sr-only
+                    inline-flex
+                    items-center
+                    justify-center
+                    h-12
+                    px-6
+                    font-semibold
+                    tracking-wide
+                    text-gray-900
+                    transition
+                    duration-200
+                    rounded
+                    shadow-md
+                    hover:text-gray-100
+                    bg-gray-100
+                    hover:bg-gray-900
+                    focus:outline-none
+                  "
+                >
+                  Háblanos
+                </a>
+                <div class="sr-only sm:not-sr-only">
+                  <a
+                    href="https://facebook.com/cintaticmx"
+                    class="
+                      inline-flex
+                      items-center
+                      justify-center
+                      h-12
+                      px-6
+                      font-semibold
+                      tracking-wide
+                      text-gray-900
+                      transition
+                      duration-200
+                      rounded
+                      shadow-md
+                      hover:text-gray-100
+                      bg-gray-100
+                      hover:bg-gray-900
+                      focus:outline-none
+                    "
+                  >
+                    Háblanos
+                  </a>
+                </div>
+              </ul>
             </div>
           </div>
         </div>
@@ -133,6 +162,8 @@
             <a
               href="tel:5628348062"
               class="
+                sm:sr-only
+                not-sr-only
                 inline-flex
                 items-center
                 justify-center
@@ -152,6 +183,30 @@
             >
               Hablemos
             </a>
+            <div class="sr-only sm:not-sr-only">
+              <a
+                href="https://facebook.com/cintaticmx"
+                class="
+                  inline-flex
+                  items-center
+                  justify-center
+                  h-12
+                  px-6
+                  mr-6
+                  font-medium
+                  tracking-wide
+                  text-white
+                  transition
+                  duration-200
+                  rounded
+                  shadow-md
+                  bg-gray-900
+                  hover:bg-gray-100 hover:text-gray-900
+                "
+              >
+                Hablemos
+              </a>
+            </div>
           </div>
         </div>
         <div class="grid gap-5 row-gap-5 sm:grid-cols-2">
@@ -363,7 +418,7 @@
             </div>
             <div class="mt-2 space-y-3">
               <div class="text-gray-700">Una página</div>
-              <div class="text-gray-700">5 secciones por página</div>
+              <div class="text-gray-700">5 secciones</div>
               <div class="text-gray-900 underline">
                 <a v-scroll-to="'#features'" href=""> Ver más </a>
 
@@ -375,30 +430,58 @@
             </div>
           </div>
           <div>
-            <a
-              href="tel:5628348062"
-              class="
-                inline-flex
-                items-center
-                justify-center
-                w-full
-                h-12
-                px-6
-                mt-6
-                font-medium
-                tracking-wide
-                text-white
-                transition
-                duration-200
-                bg-gray-800
-                rounded
-                shadow-md
-                hover:bg-gray-900
-                focus:shadow-outline focus:outline-none
-              "
-            >
-              Llámanos
-            </a>
+            <div class="sr-only sm:not-sr-only">
+              <a
+                href="https://facebook.com/cintaticmx"
+                class="
+                  inline-flex
+                  items-center
+                  justify-center
+                  w-full
+                  h-12
+                  px-6
+                  mt-6
+                  font-medium
+                  tracking-wide
+                  text-white
+                  transition
+                  duration-200
+                  bg-gray-800
+                  rounded
+                  shadow-md
+                  hover:bg-gray-900
+                  focus:shadow-outline focus:outline-none
+                "
+              >
+                Háblemos
+              </a>
+            </div>
+            <div class="sm:sr-only not-sr-only">
+              <a
+                href="tel:5628348062"
+                class="
+                  inline-flex
+                  items-center
+                  justify-center
+                  w-full
+                  h-12
+                  px-6
+                  mt-6
+                  font-medium
+                  tracking-wide
+                  text-white
+                  transition
+                  duration-200
+                  bg-gray-800
+                  rounded
+                  shadow-md
+                  hover:bg-gray-900
+                  focus:shadow-outline focus:outline-none
+                "
+              >
+                Llámanos
+              </a>
+            </div>
             <p
               class="
                 max-w-xs
@@ -464,30 +547,58 @@
             </div>
           </div>
           <div>
-            <a
-              href="tel:5628348062"
-              class="
-                inline-flex
-                items-center
-                justify-center
-                w-full
-                h-12
-                px-6
-                mt-6
-                font-medium
-                tracking-wide
-                text-white
-                transition
-                duration-200
-                rounded
-                shadow-md
-                bg-gray-900
-                hover:bg-gray-700
-                focus:shadow-outline focus:outline-none
-              "
-            >
-              Llámanos
-            </a>
+            <div class="sr-only sm:not-sr-only">
+              <a
+                href="https://facebook.com/cintaticmx"
+                class="
+                  inline-flex
+                  items-center
+                  justify-center
+                  w-full
+                  h-12
+                  px-6
+                  mt-6
+                  font-medium
+                  tracking-wide
+                  text-white
+                  transition
+                  duration-200
+                  bg-gray-800
+                  rounded
+                  shadow-md
+                  hover:bg-gray-900
+                  focus:shadow-outline focus:outline-none
+                "
+              >
+                Háblemos
+              </a>
+            </div>
+            <div class="sm:sr-only not-sr-only">
+              <a
+                href="tel:5628348062"
+                class="
+                  inline-flex
+                  items-center
+                  justify-center
+                  w-full
+                  h-12
+                  px-6
+                  mt-6
+                  font-medium
+                  tracking-wide
+                  text-white
+                  transition
+                  duration-200
+                  bg-gray-800
+                  rounded
+                  shadow-md
+                  hover:bg-gray-900
+                  focus:shadow-outline focus:outline-none
+                "
+              >
+                Llámanos
+              </a>
+            </div>
             <p
               class="
                 max-w-xs
@@ -526,30 +637,58 @@
             </div>
           </div>
           <div>
-            <a
-              href="tel:5628348062"
-              class="
-                inline-flex
-                items-center
-                justify-center
-                w-full
-                h-12
-                px-6
-                mt-6
-                font-medium
-                tracking-wide
-                text-white
-                transition
-                duration-200
-                bg-gray-800
-                rounded
-                shadow-md
-                hover:bg-gray-900
-                focus:shadow-outline focus:outline-none
-              "
-            >
-              Llámanos
-            </a>
+            <div class="sr-only sm:not-sr-only">
+              <a
+                href="https://facebook.com/cintaticmx"
+                class="
+                  inline-flex
+                  items-center
+                  justify-center
+                  w-full
+                  h-12
+                  px-6
+                  mt-6
+                  font-medium
+                  tracking-wide
+                  text-white
+                  transition
+                  duration-200
+                  bg-gray-800
+                  rounded
+                  shadow-md
+                  hover:bg-gray-900
+                  focus:shadow-outline focus:outline-none
+                "
+              >
+                Háblemos
+              </a>
+            </div>
+            <div class="sm:sr-only not-sr-only">
+              <a
+                href="tel:5628348062"
+                class="
+                  inline-flex
+                  items-center
+                  justify-center
+                  w-full
+                  h-12
+                  px-6
+                  mt-6
+                  font-medium
+                  tracking-wide
+                  text-white
+                  transition
+                  duration-200
+                  bg-gray-800
+                  rounded
+                  shadow-md
+                  hover:bg-gray-900
+                  focus:shadow-outline focus:outline-none
+                "
+              >
+                Llámanos
+              </a>
+            </div>
             <p
               class="
                 max-w-xs
@@ -557,7 +696,9 @@
                 text-xs text-gray-600
                 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto
               "
-            ></p>
+            >
+              Precio no incluye IVA
+            </p>
           </div>
         </div>
       </div>
@@ -861,45 +1002,18 @@
       </div>
     </div>
 
-    <div class="flex">
-      <div class="mx-auto">
-        <a href="tel:5628348062">
-          <font-awesome-icon class="text-4xl mx-3" :icon="['fas', 'phone']" />
-        </a>
-
-        <a
-          href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
-        >
-          <font-awesome-icon
-            class="text-5xl mx-3"
-            :icon="['fab', 'whatsapp']"
-          />
-        </a>
-
-        <a href="fb://page/109952554724805">
-          <font-awesome-icon
-            class="text-5xl mx-3"
-            :icon="['fab', 'facebook']"
-          />
-        </a>
-
-        <a href="https://instagram.com/cintaticmx">
-          <font-awesome-icon
-            class="text-5xl mx-3"
-            :icon="['fab', 'instagram']"
-          />
-        </a>
-      </div>
-    </div>
+    <SocialBanner />
   </div>
 </template>
 
 <script>
 export default {
+  /*
   computed: {
     availableLocales() {
       return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
     },
   },
+  */
 }
 </script>

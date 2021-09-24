@@ -5,16 +5,16 @@ image: v1630300237/internet-mondo-connesso.1020x680_joaoqn.webp
 slug: como-te-ayuda-un-sitio
 ---
 
-Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.
-
-## Writing content
-
-Learn how to write your `content/`, supporting Markdown, YAML, CSV and JSON: https://content.nuxtjs.org/writing.
-
-## Fetching content
-
-Learn how to fetch your content with `$content`: https://content.nuxtjs.org/fetching.
-
-## Displaying content
-
-Learn how to display your Markdown content with the `<nuxt-content>` component directly in your template: https://content.nuxtjs.org/displaying.
+En la actualidad, un negocio que no se encuentra en Internet es como si no existiera, así de simple. Por eso es vital que tu empresa este presente en Internet y tenga una página web, para que tus clientes o futuros clientes estén siempre informados.
+</br>
+</br>
+Hoy en día, el mejor escaparate para tu negocio es Internet. Se calcula que a finales de año la cifra de usuarios de Internet a escala mundial ascenderá a 3000 millones. El mercado cada vez está más globalizado y la competencia es más fuerte. Seguramente, esa competencia ya tiene su página profesional. Tu imagen corporativa y tu página web son la cara visible de tu marca. Por eso tienen que ser actuales y potentes.
+</br>
+</br>
+Una web es el escaparate perfecto para captar futuros clientes, tanto si vendes productos como servicios. Es la primera imagen que el cliente se lleva de tu negocio. Está demostrado que un cliente que está comparando varias empresas, escogerá a la empresa que tiene presencia online ya que transmite más prestigio y calidad.
+</br>
+</br>
+El tener una web te brinda la oportunidad de estar en contacto constante con tus clientes, que pueden consultarte en cualquier momento o ver tus productos y/o servicios a cualquier hora. Eso les da confianza y seguridad, y también nos dará una buena imagen responder los opiniones de estos clientes.
+</br>
+</br>
+Tenemos que decir que no cualquier web le servirá a tu negocio. Como en el caso de cualquier trabajo, es muy importante no intentar hacer el trabajo de un especialista que realmente entiende del tema.

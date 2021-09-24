@@ -288,28 +288,54 @@
                   <p class="font-medium text-gray-300">Animaciones</p>
                 </li>
               </ul>
-              <button
-                type="submit"
-                class="
-                  inline-flex
-                  items-center
-                  justify-center
-                  w-full
-                  h-12
-                  px-6
-                  font-semibold font-medium
-                  tracking-wide
-                  transition
-                  duration-200
-                  rounded
-                  shadow-md
-                  bg-gray-100
-                  hover:bg-gray-900 hover:text-white
-                  focus:shadow-outline focus:outline-none
-                "
-              >
-                Hazlo tuyo
-              </button>
+              <div class="sr-only sm:not-sr-only">
+                <a
+                  href="https://facebook.com/cintaticmx"
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    w-full
+                    h-12
+                    px-6
+                    font-semibold font-medium
+                    tracking-wide
+                    transition
+                    duration-200
+                    rounded
+                    shadow-md
+                    bg-gray-100
+                    hover:bg-gray-900 hover:text-white
+                    focus:shadow-outline focus:outline-none
+                  "
+                >
+                  Hazlo tuyo
+                </a>
+              </div>
+              <div class="sm:sr-only not-sr-only">
+                <a
+                  href="tel:5628348062"
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    w-full
+                    h-12
+                    px-6
+                    font-semibold font-medium
+                    tracking-wide
+                    transition
+                    duration-200
+                    rounded
+                    shadow-md
+                    bg-gray-100
+                    hover:bg-gray-900 hover:text-white
+                    focus:shadow-outline focus:outline-none
+                  "
+                >
+                  Hazlo tuyo
+                </a>
+              </div>
             </div>
             <div
               class="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75"
@@ -531,29 +557,54 @@
                   <p class="font-medium text-gray-300">Animaciones</p>
                 </li>
               </ul>
-              <button
-                type="submit"
-                class="
-                  inline-flex
-                  items-center
-                  justify-center
-                  w-full
-                  h-12
-                  px-6
-                  font-semibold
-                  tracking-wide
-                  white
-                  transition
-                  duration-200
-                  rounded
-                  shadow-md
-                  bg-gray-100
-                  hover:bg-gray-900 hover:text-white
-                  focus:shadow-outline focus:outline-none
-                "
-              >
-                Hazlo tuyo
-              </button>
+              <div class="sr-only sm:not-sr-only">
+                <a
+                  href="https://facebook.com/cintaticmx"
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    w-full
+                    h-12
+                    px-6
+                    font-semibold font-medium
+                    tracking-wide
+                    transition
+                    duration-200
+                    rounded
+                    shadow-md
+                    bg-gray-100
+                    hover:bg-gray-900 hover:text-white
+                    focus:shadow-outline focus:outline-none
+                  "
+                >
+                  Hazlo tuyo
+                </a>
+              </div>
+              <div class="sm:sr-only not-sr-only">
+                <a
+                  href="tel:5628348062"
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    w-full
+                    h-12
+                    px-6
+                    font-semibold font-medium
+                    tracking-wide
+                    transition
+                    duration-200
+                    rounded
+                    shadow-md
+                    bg-gray-100
+                    hover:bg-gray-900 hover:text-white
+                    focus:shadow-outline focus:outline-none
+                  "
+                >
+                  Hazlo tuyo
+                </a>
+              </div>
             </div>
             <div
               class="w-11/12 h-2 mx-auto bg-gray-900 rounded-b opacity-75"
@@ -593,35 +644,8 @@
             gusto te atenderemos.
           </h1>
         </div>
-        <div class="flex mt-8 text-black">
-          <div class="mx-auto">
-            <a href="tel:5628348062">
-              <font-awesome-icon
-                class="text-4xl mx-3"
-                :icon="['fas', 'phone']"
-              />
-            </a>
-
-            <a
-              href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
-            >
-              <font-awesome-icon
-                class="text-5xl mx-3"
-                :icon="['fab', 'whatsapp']"
-              />
-            </a>
-
-            <font-awesome-icon
-              class="text-5xl mx-3"
-              :icon="['fab', 'facebook']"
-            />
-            <font-awesome-icon
-              class="text-5xl mx-3"
-              :icon="['fab', 'instagram']"
-            />
-          </div>
-        </div>
       </div>
     </div>
+    <SocialBanner />
   </div>
 </template>

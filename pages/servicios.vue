@@ -169,5 +169,6 @@
         </div>
       </div>
     </div>
+    <SocialBanner class="mt-12 md:mt-24" />
   </div>
 </template>

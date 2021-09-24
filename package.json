@@ -29,6 +29,7 @@
     "nuxt-i18n": "^6.28.0",
     "nuxt-rfg-icon": "^0.6.4",
     "nuxt-social-meta": "^1.0.0",
+    "prism-themes": "^1.9.0",
     "vue-fb-customer-chat": "^0.2.0",
     "vue-scrollto": "^2.20.0"
   },

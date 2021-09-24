@@ -15,7 +15,7 @@
       <p>{{ formatDate(post.createdAt) }}</p>
     </div>
     <div class="mx-8 my-8 border-t-2 pt-8 border-gray-300">
-      <nuxt-content class="text-xl" :document="post" />
+      <nuxt-content :document="post" />
       <NuxtImg
         class="rounded-lg m-4 mx-auto"
         provider="cloudinary"
