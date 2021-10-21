@@ -43,6 +43,7 @@
             >Servicios</NuxtLink
           >
         </li>
+        <!--
         <li>
           <NuxtLink
             to="/paquetes"
@@ -58,6 +59,7 @@
             >Paquetes</NuxtLink
           >
         </li>
+        -->
       </ul>
       <NuxtLink
         to="/"

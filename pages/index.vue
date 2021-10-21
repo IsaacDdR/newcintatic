@@ -308,7 +308,7 @@
         </div>
       </div>
     </div>
-
+    <!--
     <div
       data-aos-duration="1000"
       data-aos="fade-in"
@@ -703,6 +703,7 @@
         </div>
       </div>
     </div>
+    -->
 
     <div
       id="features"
@@ -1001,6 +1002,7 @@
         <hr class="w-full mt-8 border-gray-300" />
       </div>
     </div>
+    <Slider />
 
     <SocialBanner />
   </div>

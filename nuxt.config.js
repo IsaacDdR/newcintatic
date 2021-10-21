@@ -50,6 +50,7 @@ export default {
   plugins: [
     '@/plugins/aos.client',
     { src: '~/plugins/vue-fb-customer-chat.js', ssr: false },
+    { src: '@/plugins/vue-carousel', mode: 'client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
