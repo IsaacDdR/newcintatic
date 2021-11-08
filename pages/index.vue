@@ -946,6 +946,73 @@
       </div>
     </div>
 
+    <section class="my-12">
+      <div class="text-center mb-8">
+        <h1 class="text-3xl font-bold">Nuestros clientes</h1>
+      </div>
+      <div class="max-w-screen-xl px-4 py-12 mx-auto lg:px-8">
+        <div class="space-y-8 md:grid md:grid-cols-4 gap-8">
+          <div
+            class="
+              flex
+              items-center
+              justify-center
+              col-span-1
+              md:col-span-2
+              lg:col-span-1
+            "
+          >
+            <a href="https://isaacddr.github.io/INA">
+              <nuxt-img class="w-1/2" src="/brands/ina.png" />
+            </a>
+          </div>
+          <div
+            class="
+              flex
+              items-center
+              justify-center
+              col-span-1
+              md:col-span-2
+              lg:col-span-1
+            "
+          >
+            <a href="https://isaacddr.github.io/mariabonita">
+              <nuxt-img class="w-1/2" src="/brands/maria-bonita.png" />
+            </a>
+          </div>
+          <div
+            class="
+              flex
+              items-center
+              justify-center
+              col-span-1
+              md:col-span-2
+              lg:col-span-1
+            "
+          >
+            <a href="https://www.mooveremx.com">
+              <nuxt-img class="w-3/4 md:w-full" src="/brands/moovere.png" />
+            </a>
+          </div>
+
+          <div
+            class="
+              flex
+              items-center
+              justify-center
+              col-span-2
+              md:col-span-3
+              lg:col-span-1
+            "
+          >
+            <a href="https://mexicodivino.com.mx">
+              <nuxt-img class="w-1/2" src="/brands/mexico-divino.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div
       data-aos-duration="1000"
       data-aos="fade-in"
